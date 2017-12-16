@@ -1,0 +1,4 @@
+<mat-toolbar color="primary">
+  <span>Hacker news</span>
+</mat-toolbar>
+<app-news-detail *ngFor="let newsInstance of news"[news]="newsInstance"></app-news-detail>
